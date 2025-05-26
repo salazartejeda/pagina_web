@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Productos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .product-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      transition: transform 0.2s;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+    .product-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+    .product-description {
+      color: #6c757d;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container py-5">
+    <h1 class="mb-4 text-center">Productos</h1>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="product-card">
+          <div class="product-title">Producto A</div>
+          <p class="product-description">Un producto innovador que mejora la productividad y eficiencia en tu día a día.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="product-card">
+          <div class="product-title">Producto B</div>
+          <p class="product-description">Diseñado con tecnología de punta, ofrece un rendimiento confiable y seguro.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="product-card">
+          <div class="product-title">Producto C</div>
+          <p class="product-description">La solución perfecta para quienes buscan calidad, estilo y funcionalidad en un solo producto.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
